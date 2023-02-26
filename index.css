@@ -1,0 +1,10 @@
+:root {
+    --primary-background-color: white;
+    --primary-font-color: black;
+    --primary-font-focus-color: gray;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
