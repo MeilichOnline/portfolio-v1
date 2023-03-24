@@ -62,7 +62,7 @@ main > #heroCard {
     justify-content: end;
     align-items: end;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 main > #aboutCard {
@@ -162,6 +162,6 @@ main > section > section > p {
 
     main > #heroCard > section > p{
         text-align: center;
-        width: 65%;
+        width: 70%;
     }
 }
