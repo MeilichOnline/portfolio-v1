@@ -135,6 +135,7 @@ main > section > section > p {
     }
     main > #heroCard > section {
         align-items: center;
+        text-align: center;
 
     }
 
