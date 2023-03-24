@@ -141,12 +141,11 @@ main > section > section > p {
 
     main > #heroCard > section > div > a {
         font-size: .8em;  
-        padding: .5 .5;
-        
+        padding: .5 .5;  
     }
 
     main > #heroCard > div {
-        margin: 0 2em 1em 2em;    
+        margin: 0 2em 4em 2em;    
     }
 
     main > #heroCard > section > section{
