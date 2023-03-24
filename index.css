@@ -136,7 +136,6 @@ main > section > section > p {
     main > #heroCard > section {
         align-items: center;
         text-align: center;
-
     }
 
     main > #heroCard > section > div > a {
@@ -161,6 +160,6 @@ main > section > section > p {
 
     main > #heroCard > section > p{
         text-align: center;
-        width: 70%;
+        width: 85%;
     }
 }
