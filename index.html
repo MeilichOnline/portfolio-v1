@@ -5,41 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="index.js" defer></script>
     <title>Welcome</title>
 </head>
-<header>
-    <img src="images/icons/portfolio logo.svg" style="height:50px; padding: .5em;" alt="logo">
-</header>
 <body>
-    <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Examples</a>
-        <a href="">Contact</a>
-        <a href="">Settings</a>
-    </nav>
+    <header>
+        <img src="images/icons/portfolio logo.svg" style="height:50px; padding: .5em;" alt="logo">
+        <nav>
+            <a href="#heroCard">Home</a>
+            <a href="#aboutCard">About</a>
+            <a href="">Services</a>
+            <a href="">Examples</a>
+            <a href="">Contact</a>
+            <a href="">Settings</a>
+        </nav>
+    </header>
     <main>
-        <section>
+        <section id="heroCard">
             <section>
-                <h1>Robert Milach</h1>
-                <h3>Full Stack-Developer and UI/UX Designer</h3>
+                <section>
+                    <h1>Robert Milach</h1>
+                    <h3>Full Stack-Developer and UI/UX Designer</h3>
+                </section>
+                <p>Welcome to my web portfolio. I want to be hired by you, so I want to convince you of my <br>skills in innovative design and user interfaces as well as clean and readable code.</p>
+                <p>The Portfolio contains sections with different focus e.g. design or functionality and <br>different approaches e.g vanilla code or with a framework like react.</p>
+                <p>If you find this interesting and would like to know me more, then use the contact form on <br>the bottom of the site or use one of the actions below. </p>
+                <div>
+                    <button class="black_button">Explore</button>
+                    <button class="back_border_button">Download CV</button>
+                    <button class="accent_button">Hire Me</button>
+                </div>  
             </section>
-            <p>Welcome to my web portfolio. I want to be hired by you, so I want to convince you of my <br>skills in innovative design and user interfaces as well as clean and readable code.</p>
-            <p>The Portfolio contains sections with different focus e.g. design or functionality and <br>different approaches e.g vanilla code or with a framework like react.</p>
-            <p>If you find this interesting and would like to know me more, then use the contact form on <br>the bottom of the site or use one of the actions below. </p>
             <div>
-                <button class="black_button">Explore</button>
-                <button class="back_border_button">Download CV</button>
-                <button class="accent_button">Hire Me</button>
-            </div>  
+                <a href="https://github.com/MeilichOnline" target="_blank"><img src="images/icons/github.svg" alt="go to git hub"></a>
+                <a href="#"><img src="images/icons/linkedin.svg" alt="go to linkedin"></a>
+                <a href="#"><img src="images/icons/instagram.svg" alt="go to instagram"></a>
+            </div>
         </section>
-        <div>
-            <img src="images/icons/github.svg" alt="go to github">
-            <img src="images/icons/linkedin.svg" alt="go to linked in">
-            <img src="images/icons/instagram.svg" alt="go to instagram">
-        </div>
+        <section id="aboutCard">
+
+        </section>
     </main>
 </body>
 </html>
