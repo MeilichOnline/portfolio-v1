@@ -62,7 +62,7 @@ main > #heroCard {
     justify-content: end;
     align-items: end;
     width: 100%;
-    height: calc(100vh - 4em);
+    height: 100%;
 }
 
 main > #aboutCard {
